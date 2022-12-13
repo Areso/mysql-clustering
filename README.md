@@ -1,9 +1,9 @@
 # mysql-clustering
-PoC solution for clustering MySQL base
+PoC solution for clustering a MySQL base
 
 ## vocabulary
-Global DB, the monolith - big monolith DB which I do have, stores users.    
-local DBs, the shards - (non existing yet) DBs to store local clients in local DBs in the same region.  
+Global DB, the monolith - a big monolith DB which I do have, stores users.    
+local DBs, the shards - (non-existing yet) DBs to store local clients in local DBs in the same region.  
 
 ## summary
 I have Global DB, which struggles with workload in 'high season'.  
